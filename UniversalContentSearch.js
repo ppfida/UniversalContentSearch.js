@@ -4,7 +4,7 @@ var plugin = new Lampa.Plugin({
     description: 'Поиск фильмов, сериалов, аниме и мультфильмов через внешний конфиг'
 });
 
-let SOURCES_URL = "https://gist.githubusercontent.com/YOUR_USERNAME/YOUR_GIST_ID/raw/sources.json"; 
+let SOURCES_URL = "https://raw.githubusercontent.com/ppfida/UniversalContentSearch.js/main/sources.json"; 
 // 👆 замените на raw-ссылку своего Gist с sources.json
 
 async function loadSources() {
