@@ -1,0 +1,104 @@
+{
+  "sources": [
+    {
+      "name": "AnimeGo",
+      "url": "https://animego.org/search/all?q={query}",
+      "rows": ".animes-grid-item",
+      "title": ".animes-title",
+      "link": "a",
+      "image": "img",
+      "year": ".animes-year",
+      "type": "anime"
+    },
+    {
+      "name": "Shikimori",
+      "url": "https://shikimori.one/animes?search={query}",
+      "rows": ".c-anime",
+      "title": ".title",
+      "link": "a",
+      "image": "img",
+      "year": ".year",
+      "type": "anime"
+    },
+    {
+      "name": "Anilibria",
+      "url": "https://www.anilibria.top/public/search.php?query={query}",
+      "rows": ".poster-container",
+      "title": ".poster-title",
+      "link": "a",
+      "image": "img",
+      "year": ".poster-year",
+      "type": "anime"
+    },
+    {
+      "name": "Dreamcast",
+      "url": "https://dreamcast.one/search?do=search&subaction=search&q={query}",
+      "rows": ".poster",
+      "title": ".poster__title",
+      "link": "a",
+      "image": "img",
+      "year": ".poster__year",
+      "type": "anime"
+    },
+    {
+      "name": "Комната Didi",
+      "url": "https://komnata-didi.com/index.php?do=search&subaction=search&q={query}",
+      "rows": ".poster",
+      "title": ".poster__title",
+      "link": "a",
+      "image": "img",
+      "year": ".poster__year",
+      "type": "anime"
+    },
+    {
+      "name": "YummyAni",
+      "url": "https://site.yummyani.me/search?q={query}",
+      "rows": ".anime-card",
+      "title": ".anime-title",
+      "link": "a",
+      "image": "img",
+      "year": ".anime-year",
+      "type": "anime"
+    },
+    {
+      "name": "Rezka",
+      "url": "https://rezka.ag/search/?do=search&subaction=search&q={query}",
+      "rows": ".b-content__inline_item",
+      "title": ".b-content__inline_item-link",
+      "link": "a",
+      "image": "img",
+      "year": ".b-content__inline_item-year",
+      "type": "movie"
+    },
+    {
+      "name": "КиноПаб",
+      "url": "https://kinopub.me/search?query={query}",
+      "rows": ".movie-card",
+      "title": ".movie-title",
+      "link": "a",
+      "image": "img",
+      "year": ".movie-year",
+      "type": "movie"
+    },
+    {
+      "name": "KinoPoisk",
+      "url": "https://www.kinopoisk.ru/index.php?kp_query={query}",
+      "rows": ".element.most_wanted",
+      "title": ".info .name a",
+      "link": "a",
+      "image": "img",
+      "year": ".year",
+      "type": "movie"
+    },
+    {
+      "name": "HDRezka Series",
+      "url": "https://rezka.ag/search/?do=search&subaction=search&q={query}",
+      "rows": ".b-content__inline_item",
+      "title": ".b-content__inline_item-link",
+      "link": "a",
+      "image": "img",
+      "year": ".b-content__inline_item-year",
+      "type": "series"
+    }
+  ]
+}
